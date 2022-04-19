@@ -1,13 +1,18 @@
-*{
-  margin: 0;
-  padding: 0;
+@import url(reset.css);
+.app{
+  display: flex;
+  min-height: 100%;
+  flex-direction: column;
+}
+main{
+  flex: 1;
 }
 
 .appbar{
   padding: 0 30px;
 }
 
-.navbar-fixed{
+/* .navbar-fixed{
   background-color: rgb(159, 22, 50);
   height: 80px;
   border-bottom: box-shadow gold;
@@ -52,8 +57,8 @@
     max-width: 700px;
     margin: 20px auto;
     border-radius: 5px;
-    /* height: 60vh; */
+    /* height: 60vh; 
   }
   form input{
   height: 40px;
-  }
+  } */
